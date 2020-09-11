@@ -1,0 +1,64 @@
+/* 
+    Created on : May 27, 2018, 3:20:36 PM
+    Authors    : Nihal, Zahid
+    Project    : OffsideTrap (E-commerce Website)
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+* { 
+    font-family: 'Gudea', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    color: #000;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding: 0px;
+}
+.mybg{
+    opacity: 0.7;
+}
+.mycontainer{
+    background: transparent;
+    position: absolute;
+    margin-top: 0px;
+    color: #000;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:focus, a:hover {
+    color: #f0d531;
+}
+.nav > li > a:focus, 
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+/* ------------------------------ 
+    Main Menu Section Wide 
+------------------------------ */
+.row1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.row2{
+    background-color: #2874f0;
+}
+
+
+
+/* ------------------------------ 
+       Footer Section 
+------------------------------ */
+.footer {
+    padding: 20px 0px;
+    background-color: #121424;
+    color: #fff;
+}
